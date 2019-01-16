@@ -20,7 +20,7 @@
 
 #include <stdio.h>
 
-// This is a simple example of building and running a simulation
+// This is a simple example of building and runkning a simulation
 // using Box2D. Here we create a large ground box and a small dynamic
 // box.
 // There are no graphics for this example. Box2D is meant to be used
