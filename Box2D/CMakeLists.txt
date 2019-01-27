@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
-message("inside Box2D")
+INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}")
+
 add_subdirectory(Collision)
 add_subdirectory(Common)
 add_subdirectory(Dynamics)

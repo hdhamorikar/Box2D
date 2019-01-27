@@ -7,18 +7,18 @@ set(CMAKE_CXX_STANDARD 14)
 #aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SUB_SOURCES)
 
 set(COMMON_SOURCE
-        b2BlockAllocator.cpp
-        b2BlockAllocator.h
-        b2Draw.cpp
-        b2Draw.h
-        b2GrowableStack.h
-        b2Math.cpp
-        b2Math.h
-        b2Settings.cpp
-        b2Settings.h
-        b2StackAllocator.cpp
-        b2StackAllocator.h
-        b2Timer.cpp
-        b2Timer.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2BlockAllocator.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2BlockAllocator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Draw.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Draw.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2GrowableStack.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Math.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Math.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Settings.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Settings.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2StackAllocator.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2StackAllocator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Timer.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Timer.h
         PARENT_SCOPE
         )

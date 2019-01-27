@@ -1,7 +1,25 @@
 cmake_minimum_required(VERSION 3.12)
 project(Box2D)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
+
+if(NOT config)
+    set(config "debug_x86_64")
+endif(NOT config)
+
+#if (config EQUAL "debug_x86_64")
+#    set(Box2D_config "debug_x86_64")
+#    set(Testbed_config "debug_x86_64")
+#    set(HelloWorld_config "debug_x86_64")
+#elseif (config EQUAL "release_x86_64")
+#    set(Box2D_config "release_x86_64")
+#    set(Testbed_config "release_x86_64")
+#    set(HelloWorld_config "release_x86_64")
+#else (config EQUAL "debug_x86_64")
+#    message(FATAL_ERROR "invalid configuration ${config}")
+#endif(config EQUAL "debug_x86_64")
 
 message("inside the top level")
 add_subdirectory(Box2D)
+add_subdirectory(HelloWorld)
+add_subdirectory(Testbed)

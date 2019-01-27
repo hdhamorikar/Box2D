@@ -7,23 +7,23 @@ set(CMAKE_CXX_STANDARD 14)
 #aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SUB_SOURCES)
 
 set(CONTACTS_SOURCE
-        b2ChainAndCircleContact.cpp
-        b2ChainAndCircleContact.h
-        b2ChainAndPolygonContact.cpp
-        b2ChainAndPolygonContact.h
-        b2CircleContact.cpp
-        b2CircleContact.h
-        b2Contact.cpp
-        b2Contact.h
-        b2ContactSolver.cpp
-        b2ContactSolver.h
-        b2EdgeAndCircleContact.cpp
-        b2EdgeAndCircleContact.h
-        b2EdgeAndPolygonContact.cpp
-        b2EdgeAndPolygonContact.h
-        b2PolygonAndCircleContact.cpp
-        b2PolygonAndCircleContact.h
-        b2PolygonContact.cpp
-        b2PolygonContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ChainAndCircleContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ChainAndCircleContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ChainAndPolygonContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ChainAndPolygonContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2CircleContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2CircleContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Contact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Contact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ContactSolver.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ContactSolver.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2EdgeAndCircleContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2EdgeAndCircleContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2EdgeAndPolygonContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2EdgeAndPolygonContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PolygonAndCircleContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PolygonAndCircleContact.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PolygonContact.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PolygonContact.h
         PARENT_SCOPE
         )

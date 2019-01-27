@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 #aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SUB_SOURCES)
 
 set(ROPE_SOURCE
-        b2Rope.cpp
-        b2Rope.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Rope.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Rope.h
         PARENT_SCOPE
         )

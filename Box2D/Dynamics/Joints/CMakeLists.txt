@@ -7,29 +7,29 @@ set(CMAKE_CXX_STANDARD 14)
 #aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SUB_SOURCES)
 
 set(JOINTS_SOURCE
-        b2DistanceJoint.cpp
-        b2DistanceJoint.h
-        b2FrictionJoint.cpp
-        b2FrictionJoint.h
-        b2GearJoint.cpp
-        b2GearJoint.h
-        b2Joint.cpp
-        b2Joint.h
-        b2MotorJoint.cpp
-        b2MotorJoint.h
-        b2MouseJoint.cpp
-        b2MouseJoint.h
-        b2PrismaticJoint.cpp
-        b2PrismaticJoint.h
-        b2PulleyJoint.cpp
-        b2PulleyJoint.h
-        b2RevoluteJoint.cpp
-        b2RevoluteJoint.h
-        b2RopeJoint.cpp
-        b2RopeJoint.h
-        b2WeldJoint.cpp
-        b2WeldJoint.h
-        b2WheelJoint.cpp
-        b2WheelJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2DistanceJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2DistanceJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2FrictionJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2FrictionJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2GearJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2GearJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Joint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Joint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2MotorJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2MotorJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2MouseJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2MouseJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PrismaticJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PrismaticJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PulleyJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2PulleyJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2RevoluteJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2RevoluteJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2RopeJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2RopeJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2WeldJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2WeldJoint.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2WheelJoint.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2WheelJoint.h
         PARENT_SCOPE
         )

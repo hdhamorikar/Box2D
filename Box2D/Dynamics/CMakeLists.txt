@@ -12,18 +12,18 @@ add_subdirectory(Joints)
 set(DYNAMICS_SOURCE
         ${CONTACTS_SOURCE}
         ${JOINTS_SOURCE}
-        b2Body.cpp
-        b2Body.h
-        b2ContactManager.cpp
-        b2ContactManager.h
-        b2Fixture.cpp
-        b2Fixture.h
-        b2Island.cpp
-        b2Island.h
-        b2TimeStep.h
-        b2World.cpp
-        b2World.h
-        b2WorldCallbacks.cpp
-        b2WorldCallbacks.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Body.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Body.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ContactManager.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2ContactManager.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Fixture.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Fixture.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Island.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2Island.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2TimeStep.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2World.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2World.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2WorldCallbacks.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/b2WorldCallbacks.h
         PARENT_SCOPE
         )
